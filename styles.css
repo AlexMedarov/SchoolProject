@@ -10,63 +10,6 @@ body {
     background-color: black;
 }
 
-.nav ul {
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    margin: 30px 0 30px;
-    background-color: black;
-}
-
-.nav ul li a {
-    background-color: aqua;
-    padding: 15px;
-    border-radius: 15px;
-    cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.nav ul li a:hover {
-    background-color: #ffffff;
-    color: aqua;
-}
-
-.content-article {
-    position: absolute;
-    top: 136px;
-    display: block;
-}
-
-.content-home h1 {
-    color: #ffffff;
-    font-size: 64px;
-}
-
-.content-home img {
-    width: 100%;
-    height: 90vh;
-}
-
-.content-image {
-    text-align: center;
-}
-
-.content-text {
-    display: flex;
-    justify-content: space-around;
-}
-
-.content-text p {
-    text-align: center;
-    color: white;
-    width: 80%;
-    font-size: 20px;
-}
-
-
 /* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
@@ -95,7 +38,7 @@ body {
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
+} 
 
 .container .content {
   display: flex;
@@ -104,7 +47,7 @@ body {
   box-shadow: 1px 1px 6px 4px white;
   padding: 20px;
   border-radius: 4px;
-}
+} 
 
 .container .content .left-side {
   width: 25%;
@@ -126,12 +69,12 @@ body {
   top: 50%;
   transform: translateY(-50%);
   background: #afafb6;
-}
+} 
 
 .content .left-side .details {
   margin: 14px;
   text-align: center;
-}
+} 
 
 .content .left-side .details i {
   font-size: 30px;
@@ -139,34 +82,35 @@ body {
   margin-bottom: 10px;
 }
 
-.content .left-side .details .topic {
+ .content .left-side .details .topic {
   color: white;
   font-size: 18px;
   font-weight: 500;
-}
+} 
+
 
 .content .left-side .details .text-one,
 .content .left-side .details .text-two {
   font-size: 14px;
   color: #afafb6;
-}
+} 
 
 .container .content .right-side {
   width: 75%;
   margin-left: 75px;
-}
+} 
 
 .content .right-side .topic-text {
   font-size: 23px;
   font-weight: 600;
   color: aqua;
-}
+} 
 
 .right-side .input-box {
   height: 50px;
   width: 100%;
   margin: 12px 0;
-}
+} 
 
 .right-side .input-box input,
 .right-side .input-box textarea {
@@ -179,11 +123,11 @@ body {
   border-radius: 6px;
   padding: 0 15px;
   resize: none;
-}
+} 
 
 .right-side .message-box {
   min-height: 110px;
-}
+} 
 
 .right-side .input-box textarea {
   padding-top: 6px;
@@ -192,7 +136,7 @@ body {
 .right-side .button {
   display: inline-block;
   margin-top: 12px;
-}
+} */
 
 .right-side .button input[type="button"] {
   color: black;
@@ -204,17 +148,17 @@ body {
   background: aqua;
   cursor: pointer;
   transition: all 0.3s ease;
-}
+} 
 
-.button input[type="button"]:hover {
+ .button input[type="button"]:hover {
   background: #5029bc;
-}
+} 
 
 @media (max-width: 950px) {
   .container {
     width: 90%;
     padding: 30px 40px 40px 35px;
-  }
+  } 
 
   .container .content .right-side {
     width: 75%;
@@ -228,10 +172,12 @@ body {
     height: 100%;
   }
 
+  /* REGISTER */
   .container .content {
     flex-direction: column-reverse;
   }
 
+  /* REGISTER */
   .container .content .left-side {
     width: 100%;
     flex-direction: row;
@@ -240,10 +186,12 @@ body {
     flex-wrap: wrap;
   }
 
+  /* REGISTER */
   .container .content .left-side::before {
     display: none;
   }
 
+  /* REGISTER */
   .container .content .right-side {
     width: 100%;
     margin-left: 0;
@@ -263,6 +211,7 @@ body {
     background-color: #080710;
 }
 
+/* REGISTER */
 .background {
     width: 430px;
     height: 415px;
@@ -272,6 +221,7 @@ body {
     top: 50%;
 }
 
+/* REGISTER */
 .background .shape {
     height: 200px;
     width: 200px;
@@ -279,6 +229,7 @@ body {
     border-radius: 50%;
 }
 
+/* REGISTER */
 .shape:first-child {
     background: linear-gradient(#1845ad,
             #23a2f6);
@@ -286,6 +237,7 @@ body {
     top: -80px;
 }
 
+/* REGISTER */
 .shape:last-child {
     background: linear-gradient(to right,
             #ff512f,
@@ -294,6 +246,7 @@ body {
     bottom: -80px;
 }
 
+/* REGISTER */
 #register-form {
     height: 520px;
     width: 400px;
@@ -309,6 +262,7 @@ body {
     padding: 50px 35px;
 }
 
+/* REGISTER */
 #register-form * {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
@@ -317,6 +271,7 @@ body {
     border: none;
 }
 
+/* REGISTER */
 #register-form h3 {
     font-size: 32px;
     font-weight: 500;
@@ -324,6 +279,7 @@ body {
     text-align: center;
 }
 
+/* REGISTER */
 label {
     display: block;
     margin-top: 30px;
@@ -331,6 +287,7 @@ label {
     font-weight: 500;
 }
 
+/* REGISTER */
 input {
     display: block;
     height: 50px;
@@ -343,10 +300,12 @@ input {
     font-weight: 300;
 }
 
+/* REGISTER */
 ::placeholder {
     color: #e5e5e5;
 }
 
+/* REGISTER */
 button {
     margin-top: 50px;
     width: 100%;
@@ -359,11 +318,13 @@ button {
     cursor: pointer;
 }
 
+/* REGISTER */
 .social {
     margin-top: 30px;
     display: flex;
 }
 
+/* REGISTER */
 .social div {
     background: red;
     width: 150px;
@@ -374,22 +335,27 @@ button {
     text-align: center;
 }
 
+/* REGISTER */
 .social div:hover {
     background-color: rgba(255, 255, 255, 0.47);
 }
 
+/* REGISTER */
 .social .fb {
     margin-left: 25px;
 }
 
+/* REGISTER */
 .social i {
     margin-right: 4px;
 }
 
+/* REGSITER */
 .hide{
     display: none;
 }
 
+/* REGISTER */
 .new-color{
   background-color: #f5943b !important;
 }
